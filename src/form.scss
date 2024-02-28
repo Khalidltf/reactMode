@@ -1,0 +1,70 @@
+.main {
+  background-color: var(--light-background);
+  width: 400px;
+  height: 400px;
+  margin: 7em auto;
+  border-radius: 1.5em;
+  box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.sign {
+  text-align: center;
+  color: var(--accent);
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 2.3rem;
+}
+
+.email {
+  width: 76%;
+  color: var(--dark-text);
+  font-weight: 100;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  border-radius: 20px;
+  padding: 10px 20px;
+  outline: none;
+  text-align: center;
+  margin-left: 46px;
+  margin-bottom: 27px;
+  background: var(--bg-input);
+}
+
+.password {
+  width: 76%;
+  color: var(--dark-text);
+  font-weight: 100;
+  font-size: 0.9rem;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.02);
+  letter-spacing: 1px;
+  outline: none;
+  text-align: center;
+  margin-left: 46px;
+  margin-bottom: 27px;
+  background: var(--bg-input);
+}
+
+form.my__form {
+  padding: 40px;
+}
+
+.email:focus,
+.password:focus {
+  border: 2px solid var(--focus);
+}
+
+.submit {
+  cursor: pointer;
+  border-radius: 5em;
+  color: var(--light-text);
+  background: linear-gradient(to right, var(--button), var(--accent));
+  border: none;
+  padding: 10px 40px;
+
+  margin-left: 35%;
+  font-size: 13px;
+  box-shadow: 0 0 21px 1px rgba(0, 0, 0, 0.04);
+}
